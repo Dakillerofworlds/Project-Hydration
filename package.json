@@ -1,0 +1,12 @@
+{
+  "name": "hope",
+  "description": "Hope",
+  "version": "0.0.0",
+  "main": "hope.js",
+  "scripts": {
+    "start": "node hope.js"
+  },
+  "dependencies": {
+    "discord.js": "11.1.0"
+  }
+}
