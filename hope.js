@@ -99,4 +99,11 @@ bot.on('message', (message) => {
     }
 });
 
+bot.on('message', (message) => {
+
+    if(message.content == '#pet') {
+        message.reply('you quietly pet <@243565320571322368>');
+    }
+});
+
 bot.login(process.env.BOT_TOKEN);
