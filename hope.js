@@ -74,7 +74,7 @@ bot.on('message', (message) => {
 bot.on('message', (message) => {
 
     if(message.content == 'What is love') {
-        message.channel.sendMessage('Baby don't hurt me');
+        message.channel.sendMessage('Baby don‘t hurt me');
     }
 });
 
