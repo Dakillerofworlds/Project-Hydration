@@ -73,8 +73,8 @@ bot.on('message', (message) => {
 
 bot.on('message', (message) => {
 
-    if(message.content == 'dumb bot') {
-        message.channel.sendMessage('I know you are but what am I?');
+    if(message.content == 'What is love') {
+        message.channel.sendMessage('Baby don't hurt me');
     }
 });
 
