@@ -1,4 +1,4 @@
-const commando = require('discord.js-commando');
+const commando = require('discord.js');
 const bot = new commando.Client();
 
 bot.on('message', (message) => {
