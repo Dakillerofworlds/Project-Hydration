@@ -88,8 +88,8 @@ bot.on('message', (message) => {
 bot.on('message', (message) => {
 
     if(message.content == 'assemble the squad') {
-        message.channel.sendMessage("@everyone assemble!", 
-    file: "https://www.mememaker.net/static/images/memes/4473906.jpg");
+        message.channel.sendMessage('@everyone assemble!', 
+    file: www.mememaker.net/static/images/memes/4473906.jpg');
     }
 });
 
