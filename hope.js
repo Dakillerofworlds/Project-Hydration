@@ -58,7 +58,7 @@ bot.on('message', (message) => {
 bot.on('message', (message) => {
 
     if(message.content == 'dumb bot') {
-        message.channel.sendMessage('only a little >_<');
+        message.channel.sendMessage('why though?');
     }
 });
 
