@@ -50,6 +50,22 @@ bot.on('message', (message) => {
 
 bot.on('message', (message) => {
 
+    if(message.content == 'give me dark matter prices') {
+        message.reply('that is far too rare for my knowledge... I advise asking other captains.');
+    }
+
+});
+
+bot.on('message', (message) => {
+
+    if(message.content == 'give me unknown material prices') {
+        message.reply('that is far too rare for my knowledge... I advise asking other captains.');
+    }
+
+});
+
+bot.on('message', (message) => {
+
     if(message.content == 'Who sucks?') {
         message.channel.sendMessage('<@189231734842195968> sucks');
     }
