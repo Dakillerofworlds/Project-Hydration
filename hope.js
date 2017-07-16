@@ -81,7 +81,7 @@ bot.on('message', (message) => {
 bot.on('message', (message) => {
 
     if(message.content == '#help') {
-        message.reply('I currently do not know many commands, since I was born yesterday, but you can say "give me [material] prices" for common materials and I can tell you what my creator told me the average prices are. If you do not agree with these, please message @Retro Phoenix#8939 with suggested market prices');
+        message.reply('I currently do not know many commands, since I was born yesterday, but you can say "give me [material] prices" for common materials and I can tell you what my creator told me the average prices are. If you do not agree with these, please message <@231347753614049282> with suggested market prices');
     }
 });
 
