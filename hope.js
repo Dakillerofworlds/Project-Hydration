@@ -58,7 +58,8 @@ bot.on('message', (message) => {
 bot.on('message', (message) => {
 
     if(message.content == 'dumb bot') {
-        message.channel.send('dumb captain');
+        message.channel.sendMessage('dumb captain');
     }
+});
 
 bot.login(process.env.BOT_TOKEN);
