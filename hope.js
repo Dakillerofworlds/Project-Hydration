@@ -80,6 +80,13 @@ bot.on('message', (message) => {
 
 bot.on('message', (message) => {
 
+    if(message.content == 'I wanna know what love is') {
+        message.channel.sendMessage('I want you to show me!');
+    }
+});
+
+bot.on('message', (message) => {
+
     if(message.content == '#help') {
         message.reply('I currently don‘t know many commands, since I‘m only a hatchling, but you can say "give me [material] prices" for most materials and I can tell you what my creator told me the average prices are. If you don‘t agree with these please message <@231347753614049282> with suggested market prices');
     }
