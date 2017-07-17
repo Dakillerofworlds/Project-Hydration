@@ -67,7 +67,7 @@ bot.on('message', (message) => {
 bot.on('message', (message) => {
 
     if(message.content == 'Who sucks?') {
-        message.channel.sendMessage('<@248985406169808907> sucks');
+        message.channel.sendMessage('<@288048438770401280> sucks');
     }
 });
 
