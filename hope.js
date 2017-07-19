@@ -113,7 +113,7 @@ bot.on('message', (message) => {
 
 bot.on('message', (message) => {
 
-    if(message.content == '%Ion') {
+    if(message.content == 'h!ion') {
         message.channel.send('```The Ion Cannon is a powerful weapon that takes a singificant amount of time to charge and consumes an Ion Core for each volley. The Ion Cannon is available for construction on Level 11 starships.```', { files: ['http://i.imgur.com/ua20rU0.gif'] });
     }
 });
