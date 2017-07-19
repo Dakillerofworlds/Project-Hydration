@@ -132,4 +132,11 @@ bot.on('message', (message) => {
     }
 });
 
+bot.on('message', (message) => {
+
+    if(message.content == 'h!missile') {
+        message.channel.send('```Manufacture and launch projectile missiles. Bypasses shields, countered by engines. Available to level 3 starship captains.```', { files: ['http://i.imgur.com/w2Ho8Ss.png'] });
+    }
+});
+
 bot.login(process.env.BOT_TOKEN);
