@@ -118,11 +118,4 @@ bot.on('message', (message) => {
     }
 });
 
-bot.on('message', (message) => {
-
-    if(message.content == 'h!roulette') {
-        message.channel.send('Here is your random image', { files: ['http://imgurroulette.com/'] });
-    }
-});
-
 bot.login(process.env.BOT_TOKEN);
