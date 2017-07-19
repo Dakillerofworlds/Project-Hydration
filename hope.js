@@ -118,4 +118,11 @@ bot.on('message', (message) => {
     }
 });
 
+bot.on('message', (message) => {
+
+    if(message.content == 'h!emp') {
+        message.channel.send('```The EMP Cannon developed by Federation Labs. Designed to disrupt enemy electronics systems. Also inflicts considerable hull damage. Available for level 10 starships.```', { files: ['http://i.imgur.com/taRE7eC.gif'] });
+    }
+});
+
 bot.login(process.env.BOT_TOKEN);
