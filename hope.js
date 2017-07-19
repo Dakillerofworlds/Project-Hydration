@@ -102,7 +102,7 @@ bot.on('message', (message) => {
 bot.on('message', (message) => {
 
     if(message.content == 'meme me up scotty') {
-        message.channel.send({files: "www.imgflip.com/s/meme/Picard-Wtf.jpg"});
+        message.channel.send({files: 'www.imgflip.com/s/meme/Picard-Wtf.jpg'});
     }
 });
 
