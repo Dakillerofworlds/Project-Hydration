@@ -125,4 +125,11 @@ bot.on('message', (message) => {
     }
 });
 
+bot.on('message', (message) => {
+
+    if(message.content == 'h!laser') {
+        message.channel.send('```Multi-purpose mining laser with limited offensive capacity. Available to all starship captains, passively produces minerals.```', { files: ['https://i.imgur.com/g3xrDs8.gif'] });
+    }
+});
+
 bot.login(process.env.BOT_TOKEN);
