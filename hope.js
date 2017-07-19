@@ -101,8 +101,8 @@ bot.on('message', (message) => {
 
 bot.on('message', (message) => {
 
-    if(message.content == 'wow, really?') {
-        message.channel.sendMessage('**Translation:** That has to be some of the stupidest shit I‘ve ever heard');
+    if(message.content == 'meme me up scotty') {
+        message.channel.send({files: "www.imgflip.com/s/meme/Picard-Wtf.jpg"});
     }
 });
 
