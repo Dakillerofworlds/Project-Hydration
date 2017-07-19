@@ -101,8 +101,8 @@ bot.on('message', (message) => {
 
 bot.on('message', (message) => {
 
-    if(message.content == 'meme me up scotty') {
-        message.channel.send({files: 'www.imgflip.com/s/meme/Picard-Wtf.jpg'});
+    if(message.content == 'Hail') {
+        message.channel.send({files: 'http://i.imgur.com/865v410.jpg'});
     }
 });
 
