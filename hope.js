@@ -102,7 +102,7 @@ bot.on('message', (message) => {
 bot.on('message', (message) => {
 
     if(message.content == 'Hail') {
-        message.channel..send('Hail Hydra!', { files: ['https://s-media-cache-ak0.pinimg.com/736x/5d/7a/a5/5d7aa5fa1de1966b2f3691bf238bdd1a--marvel-funny-marvel-avengers.jpg'] });
+        message.channel.send('Hail Hydra!', { files: ['https://s-media-cache-ak0.pinimg.com/736x/5d/7a/a5/5d7aa5fa1de1966b2f3691bf238bdd1a--marvel-funny-marvel-avengers.jpg'] });
     }
 });
 
