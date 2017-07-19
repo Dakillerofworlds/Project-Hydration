@@ -101,8 +101,8 @@ bot.on('message', (message) => {
 
 bot.on('message', (message) => {
 
-    if(message.content == 'Hail') {
-        message.channel.send('Hail Hydra!', { files: ['https://s-media-cache-ak0.pinimg.com/736x/5d/7a/a5/5d7aa5fa1de1966b2f3691bf238bdd1a--marvel-funny-marvel-avengers.jpg'] });
+    if(message.content == '%Ion') {
+        message.channel.send('```The Ion Cannon is a powerful weapon that takes a singificant amount of time to charge and consumes an Ion Core for each volley. The Ion Cannon is available for construction on Level 11 starships.```', { files: ['https://vignette3.wikia.nocookie.net/pixelstarships/images/5/53/IonCannon1.gif/revision/latest?cb=20170331011033'] } , { files: ['https://vignette1.wikia.nocookie.net/pixelstarships/images/3/33/IonCannon2.gif/revision/latest?cb=20170331011041'] });
     }
 });
 
