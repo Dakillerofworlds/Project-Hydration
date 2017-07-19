@@ -118,4 +118,14 @@ bot.on('message', (message) => {
     }
 });
 
+bot.on('message', (message) => {
+
+    if(message.content == 'h!test') {
+        message.reply('this
+\n is
+\n a
+\n test');
+    }
+});
+
 bot.login(process.env.BOT_TOKEN);
