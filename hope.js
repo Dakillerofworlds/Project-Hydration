@@ -102,14 +102,7 @@ bot.on('message', (message) => {
 bot.on('message', (message) => {
 
     if(message.content == '%Ion') {
-        message.channel.send('```The Ion Cannon is a powerful weapon that takes a singificant amount of time to charge and consumes an Ion Core for each volley. The Ion Cannon is available for construction on Level 11 starships.```', { files: ['https://vignette1.wikia.nocookie.net/pixelstarships/images/3/33/IonCannon2.gif/revision/latest?cb=20170331011041'] });
-    }
-});
-
-bot.on('message', (message) => {
-
-    if(message.content == 'How does lucis comment make you feel') {
-        message.reply('It makes me very sad;-;');
+        message.channel.send('```The Ion Cannon is a powerful weapon that takes a singificant amount of time to charge and consumes an Ion Core for each volley. The Ion Cannon is available for construction on Level 11 starships.```', { files: ['http://i.imgur.com/ua20rU0.gif'] });
     }
 });
 
