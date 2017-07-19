@@ -106,4 +106,11 @@ bot.on('message', (message) => {
     }
 });
 
+bot.on('message', (message) => {
+
+    if(message.content == 'How does lucis comment make you feel') {
+        message.reply('It makes me very sad;-;');
+    }
+});
+
 bot.login(process.env.BOT_TOKEN);
