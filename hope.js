@@ -121,7 +121,7 @@ bot.on('message', (message) => {
 bot.on('message', (message) => {
 
     if(message.content == 'h!test') {
-        message.channel.send('This is a test', 'This is a test of sending multiline replies in one text post');
+        message.channel.send('This is a test', { 'This is a test of sending multiline replies in one text post' });
     }
 });
 
