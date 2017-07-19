@@ -121,10 +121,8 @@ bot.on('message', (message) => {
 bot.on('message', (message) => {
 
     if(message.content == 'h!test') {
-        message.reply('this
-\n is
-\n a
-\n test');
+        message.reply('this is
+\n a test');
     }
 });
 
