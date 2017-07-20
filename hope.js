@@ -110,6 +110,12 @@ bot.on('message', (message) => {
         message.reply('you quietly pet <@243565320571322368>');
     }
 });
+bot.on('message', (message) => {
+
+    if(message.content == 'Sin') {
+        message.channel.sendMessage('@Sinsinna#6577 is a rich kid who should stop smoking.');
+    }
+});
 
 bot.on('message', (message) => {
 
